@@ -1,0 +1,107 @@
+<div class="post-form-container">
+  <h2>{{ isEdit ? "Edit Post" : "Add New Post" }}</h2>
+
+  <form [formGroup]="postForm" (ngSubmit)="onSubmit()">
+    <!-- Title -->
+    <div class="form-group">
+      <label for="title">Title</label>
+      <input
+        id="title"
+        formControlName="title"
+        type="text"
+        placeholder="Enter post title"
+      />
+      <small
+        *ngIf="postForm.get('title')?.invalid && postForm.get('title')?.touched"
+      >
+        Title is required (min. 3 characters).
+      </small>
+    </div>
+
+    <!-- Description -->
+    <div class="form-group">
+      <label for="description">Description</label>
+      <textarea
+        id="description"
+        formControlName="description"
+        rows="3"
+        placeholder="Enter description"
+      ></textarea>
+      <small
+        *ngIf="
+          postForm.get('description')?.invalid &&
+          postForm.get('description')?.touched
+        "
+      >
+        Description is required.
+      </small>
+    </div>
+
+    <!-- Cooking Time -->
+    <div class="form-group">
+      <label for="cookingTime">Cooking Time (minutes)</label>
+      <input
+        id="cookingTime"
+        formControlName="cookingTime"
+        type="number"
+        placeholder="Enter cooking time"
+      />
+      <small
+        *ngIf="
+          postForm.get('cookingTime')?.invalid &&
+          postForm.get('cookingTime')?.touched
+        "
+      >
+        Cooking time must be a positive number.
+      </small>
+    </div>
+
+    <!-- Image -->
+    <div class="form-group">
+      <label for="image">Image URL</label>
+      <input
+        id="image"
+        formControlName="image"
+        type="text"
+        placeholder="Enter image URL"
+      />
+      <small
+        *ngIf="postForm.get('image')?.invalid && postForm.get('image')?.touched"
+      >
+        Image URL is required.
+      </small>
+    </div>
+
+    <!-- Ingredients -->
+    <div class="form-group">
+      <label>Ingredients</label>
+      <div formArrayName="ingredients">
+        <div
+          *ngFor="let ingredient of ingredients.controls; let i = index"
+          class="ingredient-group"
+        >
+          <input
+            [formControlName]="i"
+            type="text"
+            placeholder="Enter ingredient"
+          />
+          <button
+            type="button"
+            class="remove-button"
+            (click)="removeIngredient(i)"
+          >
+            Remove
+          </button>
+        </div>
+        <button type="button" class="add-button" (click)="addIngredient()">
+          Add Ingredient
+        </button>
+      </div>
+    </div>
+
+    <!-- Submit Button -->
+    <button type="submit" [disabled]="postForm.invalid">
+      {{ isEdit ? "Update Post" : "Create Post" }}
+    </button>
+  </form>
+</div>

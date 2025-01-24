@@ -1,0 +1,110 @@
+.post-list {
+
+  padding: 20px;
+
+  .loading {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #666;
+  }
+
+  .error {
+    text-align: center;
+    font-size: 1.2rem;
+    color: red;
+    margin-bottom: 20px;
+  }
+
+  .top-header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .create-button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+    background: #134975;
+    color: white;
+
+    &:hover {
+      background: #115396;
+    }
+  }
+
+  .post-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+    max-width: 300px;
+    display: inline-block;
+    height: 500px;
+    overflow: auto;
+
+    h3 {
+      font-size: 1.5rem;
+      margin: 0;
+    }
+
+    p {
+      margin: 15px 0;
+      font-size: 1rem;
+      color: #555;
+    }
+
+    .post-image {
+      width: 100%;
+      height: 200px;
+      border-radius: 8px;
+      margin-bottom: 15px;
+    }
+
+    .action-buttons {
+      display: flex;
+      gap: 10px;
+
+      button {
+        padding: 10px 15px;
+        border: none;
+        border-radius: 5px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: background 0.3s;
+
+        &.view-button {
+          background: #4caf50;
+          color: white;
+
+          &:hover {
+            background: #45a045;
+          }
+        }
+
+        &.edit-button {
+          background: #2196f3;
+          color: white;
+
+          &:hover {
+            background: #1976d2;
+          }
+        }
+
+        &.delete-button {
+          background: #f44336;
+          color: white;
+
+          &:hover {
+            background: #d32f2f;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,352 @@
+{
+  "posts": [
+    {
+      "title": "Spaghetti Carbonara",
+      "description": "A quick and easy Italian pasta recipe.",
+      "cookingTime": 30,
+      "image": "/images/pasta-colored-farfalle-salad-with-tomatoes-mozzarella-basil.jpg",
+      "ingredients": [
+        "Spaghetti",
+        "Eggs",
+        "Pancetta",
+        "Parmesan",
+        "Black Pepper"
+      ],
+      "id": "1"
+    },
+    {
+      "title": "Avocado Toast",
+      "description": "Healthy and delicious breakfast option.",
+      "cookingTime": 10,
+      "image": "/images/avocado-toast-breakfast.jpg",
+      "ingredients": [
+        "Bread",
+        "Avocado",
+        "Salt",
+        "Pepper",
+        "Lemon"
+      ],
+      "id": "2"
+    },
+    {
+      "id": "3",
+      "title": "Grilled Chicken",
+      "image": "/images/grilled-chicken.jpg",
+      "ingredients": [
+        "Chicken Breast",
+        "Olive Oil",
+        "Garlic",
+        "Rosemary",
+        "Salt"
+      ],
+      "cookingTime": 25,
+      "description": "Juicy and flavorful grilled chicken."
+    },
+    {
+      "id": "4",
+      "title": "Margherita Pizza",
+      "image": "images/margherita-pizza.jpg",
+      "ingredients": [
+        "Pizza Dough",
+        "Tomato Sauce",
+        "Mozzarella",
+        "Basil",
+        "Olive Oil"
+      ],
+      "cookingTime": 40,
+      "description": "Classic Italian pizza with fresh ingredients."
+    },
+    {
+      "id": "5",
+      "title": "Vegetable Stir Fry",
+      "image": "/images/vegetable-stir-fry.jpg",
+      "ingredients": [
+        "Bell Peppers",
+        "Broccoli",
+        "Carrots",
+        "Soy Sauce",
+        "Ginger"
+      ],
+      "cookingTime": 20,
+      "description": "Quick and easy veggie-packed dish."
+    },
+    {
+      "id": "6",
+      "title": "Banana Pancakes",
+      "image": "/images/banana-pancakes.jpg",
+      "ingredients": [
+        "Bananas",
+        "Flour",
+        "Eggs",
+        "Milk",
+        "Maple Syrup"
+      ],
+      "cookingTime": 15,
+      "description": "Soft and fluffy pancakes with a banana twist."
+    },
+    {
+      "id": "7",
+      "title": "Caesar Salad",
+      "image": "/images/caesar-salad.jpg",
+      "ingredients": [
+        "Romaine Lettuce",
+        "Croutons",
+        "Caesar Dressing",
+        "Parmesan"
+      ],
+      "cookingTime": 10,
+      "description": "Crisp and classic Caesar salad."
+    },
+    {
+      "id": "8",
+      "title": "Beef Tacos",
+      "image": "/images/beef-tacos.jpg",
+      "ingredients": [
+        "Ground Beef",
+        "Taco Shells",
+        "Cheddar",
+        "Lettuce",
+        "Tomatoes"
+      ],
+      "cookingTime": 20,
+      "description": "Flavorful tacos perfect for any occasion."
+    },
+    {
+      "id": "9",
+      "title": "Lemon Garlic Shrimp",
+      "image": "/images/lemon-garlic-shrimp.jpg",
+      "ingredients": [
+        "Shrimp",
+        "Lemon",
+        "Garlic",
+        "Butter",
+        "Parsley"
+      ],
+      "cookingTime": 15,
+      "description": "Zesty and buttery shrimp dish."
+    },
+    {
+      "id": "10",
+      "title": "Chocolate Chip Cookies",
+      "image": "/images/chocolate-chip-cookies.jpg",
+      "ingredients": [
+        "Flour",
+        "Sugar",
+        "Chocolate Chips",
+        "Butter",
+        "Eggs"
+      ],
+      "cookingTime": 25,
+      "description": "Classic chewy and gooey cookies."
+    },
+    {
+      "id": "11",
+      "title": "Mushroom Risotto",
+      "image": "/images/mushroom-risotto.jpg",
+      "ingredients": [
+        "Arborio Rice",
+        "Mushrooms",
+        "White Wine",
+        "Parmesan",
+        "Onion"
+      ],
+      "cookingTime": 40,
+      "description": "Creamy risotto with earthy mushrooms."
+    },
+    {
+      "id": "12",
+      "title": "Fish Tacos",
+      "image": "/images/fish-tacos.jpg",
+      "ingredients": [
+        "White Fish",
+        "Taco Shells",
+        "Cabbage",
+        "Lime",
+        "Sour Cream"
+      ],
+      "cookingTime": 20,
+      "description": "Light and refreshing fish tacos."
+    },
+    {
+      "id": "13",
+      "title": "Stuffed Bell Peppers",
+      "image": "/images/stuffed-bell-peppers.jpg",
+      "ingredients": [
+        "Bell Peppers",
+        "Ground Beef",
+        "Rice",
+        "Tomato Sauce",
+        "Cheese"
+      ],
+      "cookingTime": 50,
+      "description": "Delicious and filling stuffed peppers."
+    },
+    {
+      "id": "14",
+      "title": "Greek Salad",
+      "image": "/images/greek-salad.jpg",
+      "ingredients": [
+        "Cucumber",
+        "Tomatoes",
+        "Feta",
+        "Olives",
+        "Red Onion"
+      ],
+      "cookingTime": 10,
+      "description": "Fresh and tangy salad with Mediterranean flavors."
+    },
+    {
+      "id": "15",
+      "title": "Baked Salmon",
+      "image": "/images/baked-salmon.jpg",
+      "ingredients": [
+        "Salmon",
+        "Lemon",
+        "Garlic",
+        "Dill",
+        "Olive Oil"
+      ],
+      "cookingTime": 20,
+      "description": "Healthy and flavorful baked salmon."
+    },
+    {
+      "id": "16",
+      "title": "Eggplant Parmesan",
+      "image": "/images/eggplant-parmesan.jpg",
+      "ingredients": [
+        "Eggplant",
+        "Marinara Sauce",
+        "Mozzarella",
+        "Parmesan",
+        "Breadcrumbs"
+      ],
+      "cookingTime": 50,
+      "description": "Layered eggplant with melted cheese."
+    },
+    {
+      "id": "17",
+      "title": "Chicken Alfredo",
+      "image": "/images/chicken-alfredo.jpg",
+      "ingredients": [
+        "Fettuccine",
+        "Chicken",
+        "Cream",
+        "Parmesan",
+        "Butter"
+      ],
+      "cookingTime": 30,
+      "description": "Creamy and satisfying pasta dish."
+    },
+    {
+      "id": "18",
+      "title": "Vegetable Curry",
+      "image": "/images/vegetable-curry.jpg",
+      "ingredients": [
+        "Vegetables",
+        "Coconut Milk",
+        "Curry Paste",
+        "Garlic",
+        "Ginger"
+      ],
+      "cookingTime": 35,
+      "description": "Hearty and flavorful curry with fresh veggies."
+    },
+    {
+      "id": "19",
+      "title": "French Toast",
+      "image": "/images/french-toast.jpg",
+      "ingredients": [
+        "Bread",
+        "Eggs",
+        "Milk",
+        "Cinnamon",
+        "Vanilla"
+      ],
+      "cookingTime": 15,
+      "description": "Sweet and crispy French toast."
+    },
+    {
+      "id": "20",
+      "title": "Chicken Biryani",
+      "image": "/images/chicken-biryani.jpg",
+      "ingredients": [
+        "Chicken",
+        "Basmati Rice",
+        "Yogurt",
+        "Spices",
+        "Onion"
+      ],
+      "cookingTime": 60,
+      "description": "Aromatic and flavorful Indian rice dish."
+    },
+    {
+      "id": "21",
+      "title": "Caprese Salad",
+      "image": "/images/caprese-salad.jpg",
+      "ingredients": [
+        "Tomatoes",
+        "Mozzarella",
+        "Basil",
+        "Olive Oil",
+        "Balsamic"
+      ],
+      "cookingTime": 10,
+      "description": "Simple and fresh Italian salad."
+    },
+    {
+      "id": "22",
+      "title": "Pulled Pork Sandwich",
+      "image": "/images/pulled-pork-sandwich.jpg",
+      "ingredients": [
+        "Pulled Pork",
+        "Buns",
+        "Barbecue Sauce",
+        "Coleslaw"
+      ],
+      "cookingTime": 240,
+      "description": "Tender pulled pork with tangy barbecue sauce."
+    },
+    {
+      "id": "23",
+      "title": "Spinach Omelette",
+      "image": "/images/spinach-omelette.jpg",
+      "ingredients": [
+        "Eggs",
+        "Spinach",
+        "Cheese",
+        "Salt",
+        "Pepper"
+      ],
+      "cookingTime": 10,
+      "description": "Quick and healthy breakfast omelette."
+    },
+    {
+      "id": "24",
+      "title": "Pumpkin Soup",
+      "image": "/images/pumpkin-soup.jpg",
+      "ingredients": [
+        "Pumpkin",
+        "Onion",
+        "Garlic",
+        "Cream",
+        "Vegetable Broth"
+      ],
+      "cookingTime": 30,
+      "description": "Rich and creamy pumpkin soup."
+    },
+    {
+      "id": "25",
+      "title": "Blueberry Muffins",
+      "image": "/images/blueberry-muffins.jpg",
+      "ingredients": [
+        "Flour",
+        "Sugar",
+        "Blueberries",
+        "Eggs",
+        "Butter"
+      ],
+      "cookingTime": 25,
+      "description": "Soft and moist muffins packed with blueberries."
+    }
+  ]
+}
