@@ -7,7 +7,7 @@ import { Post } from '../models/post.model';
   providedIn: 'root',
 })
 export class PostService {
-  private apiUrl = 'http://localhost:3000/posts';
+  private apiUrl = '/api/posts';
 
   constructor(private http: HttpClient) {}
 
