@@ -7,7 +7,7 @@ import { Post } from '../models/post.model';
   providedIn: 'root',
 })
 export class PostService {
-  private apiUrl = '/api/posts';
+  private apiUrl = 'https://cors-anywhere.herokuapp.com/http://localhost:3000/posts';
 
   constructor(private http: HttpClient) {}
 
